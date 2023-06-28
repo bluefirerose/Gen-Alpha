@@ -15,7 +15,11 @@ function Navbar() {
             aria-label="Toggle navigation"
           ></Button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <Navlink to={"/"}>
+                <h1>Home</h1>
+              </Navlink>
+            </ul>
           </div>
         </div>
       </Nav>
