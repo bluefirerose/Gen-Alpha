@@ -48,13 +48,13 @@ function Navbar() {
                 <BiSearchAlt className="button_logo" />
               </button>
             </form>
-            <AiOutlineShoppingCart />
+            <AiOutlineShoppingCart className="cart-logo" />
           </div>
-          <div className="cart_div"></div>
           <div className="toggle_button">
             <HiMiniBars3CenterLeft />
           </div>
         </div>
+        <hr className="horizontal_line" />
       </nav>
     </header>
   );
