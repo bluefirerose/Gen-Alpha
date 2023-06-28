@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation_bar{
+    background-color: #FBF6F1;
+    width: 100%;
+    /* height: 60px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+.Navlink{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.Navlink:hover{
+    color: #FCA75B;
+}
+/* header */
+header{
+    background-color: #FBF6F1;
+}
+/* nav */
+nav{
+    position: relative;
+    padding: 0 2rem
+}
+
+.Link{
+    font-size: 3rem;
+}
+.Link:hover{
+    color: #FCA75B;
+}
+.navigation_bar .links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    
+}
+.navigation_bar .toggle_button{
+    font-size: 1.75rem;
+    cursor: pointer;
+    display: none;
+}
+
+input[type=text]{
+    width: 4rem;
+    padding: .25rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #FBF6F1;
+    color: white;
+    transition: background-color 0.4s, width 0.4s ease-in-out;
+}
+
+::placeholder{
+    color: black;
+}
+input[type=text]:hover{
+    background-color: #c7c3be;
+}
+input[type=text]:focus{
+    background-color: #ffe7ce;
+    width: 15rem;
+}
+.button_style{
+    width: 2.5rem;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FBF6F1;
+}
+.button_logo{
+    font-size: 1.5rem;
+}
+.button_logo:hover{
+    color: #FCA75B;
+}
+ul {
+    padding: 0;
+    margin-block-end: 0;
+    margin-bottom: 0;
+}
+
+form{
+    display: inline-block;
+}
